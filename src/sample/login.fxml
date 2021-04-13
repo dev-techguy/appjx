@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+    <children>
+        <BorderPane layoutX="-8.0" prefHeight="400.0" prefWidth="283.0">
+            <center>
+                <ImageView fx:id="bannerImageView" fitHeight="403.0" fitWidth="330.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                    <image>
+                        <Image url="@../../images/banner.jpg" />
+                    </image>
+                </ImageView>
+            </center>
+        </BorderPane>
+        <Label layoutX="354.0" layoutY="98.0" prefHeight="51.0" prefWidth="171.0" text="WELCOME BACK">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Label>
+        <Label layoutX="317.0" layoutY="202.0" text="USERNAME" />
+        <Label layoutX="316.0" layoutY="249.0" text="PASSWORD" />
+        <TextField fx:id="usernameTextField" layoutX="399.0" layoutY="198.0" />
+        <PasswordField fx:id="passwordTextField" layoutX="399.0" layoutY="245.0" />
+        <Button fx:id="loginButton" layoutX="399.0" layoutY="300.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="33.0" prefWidth="171.0" text="LOGIN" />
+      <Button fx:id="cancelButton" layoutX="399.0" layoutY="350.0" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="33.0" prefWidth="171.0" text="CANCEL" />
+    </children>
+</AnchorPane>
