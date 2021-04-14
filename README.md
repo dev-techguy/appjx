@@ -1,4 +1,4 @@
-# appjx
+# PhotosXX
 JavaFX Photos Managment Application
 
 
