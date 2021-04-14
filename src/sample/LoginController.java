@@ -80,7 +80,7 @@ public class LoginController implements Initializable {
 
 
                     FXMLLoader fxmlLoader = new FXMLLoader();
-                    fxmlLoader.setLocation(getClass().getResource("dashboard.fxml"));
+                    fxmlLoader.setLocation(getClass().getResource("dashboard/dashboard.fxml"));
                     /*
                      * if "fx:controller" is not set in fxml
                      * fxmlLoader.setController(NewWindowController);

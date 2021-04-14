@@ -1,4 +1,4 @@
-package sample;
+package sample.dashboard;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
